@@ -22,6 +22,7 @@ const Home = () => {
     <div className="container">
     <section className="mt-3 text-center">
     <h3>Enter your Task</h3>
+    <h2>helpful</h2>
 
     <div className="todo col-lg-5 mx-auto d-flex">
     <input className="form-control" name='task' value={data} onChange={(e)=>setdata(e.target.value)}></input>
